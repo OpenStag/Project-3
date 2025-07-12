@@ -33,17 +33,17 @@ body {
     top: 164px; 
     left: 132px;
     width: 617px; 
-    height: 19px; /
+    height: 19px; 
 }
 
 .help-text {
     font-family: 'Inter', sans-serif; 
-    font-weight: 500; /
+    font-weight: 500; 
     font-style: Medium;
     font-size: 16px; 
     line-height: 100%; 
     letter-spacing: 0%; 
-    color: #000000; /
+    color: #000000; 
     margin: 0;
     padding: 0;
     overflow: hidden;
