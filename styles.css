@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the "Contact Us" heading*/
+.contact-us-container {
+    position: absolute;
+    top: 112px; /* */
+    left: 132px; /* */
+    width: 175px; /* */
+    height: 39px; /* */
+}
+
+.contact-us-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 700; /* */
+    font-style: Medium;
+    font-size: 32px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styles for the "We're here to help!" text*/
+.help-text-container {
+    position: absolute;
+    top: 164px; /* */
+    left: 132px; /* */
+    width: 617px; /* */
+    height: 19px; /* */
+}
+
+.help-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styles for the "Your Name" label/text*/
+.your-name-label-container {
+    position: absolute;
+    top: 228px; /* */
+    left: 135px; /* */
+    width: 84px; /* */
+    height: 19px; /* */
+}
+
+.your-name-label-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0px; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+ 
+
+}
+
+/* Styles for the "Your Name" input box container */
+.your-name-input-container {
+    position: absolute;
+    top: 260px; /* */
+    left: 132px; /* */
+    width: 391px; /* */
+    height: 47px; /* */
+}
+
+/* Styles for the "Your Name" input box */
+.your-name-input-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: #D9D9D9; /* */
+    border: 1px solid; /* */
+    border-color: rgba(0, 0, 0, 0.17); /* */
+    border-radius: 10px; /* */
+
+    outline: none;
+    padding: 8px 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: normal;
+}
+
+/* Styles for "Enter your name" placeholder text */
+.your-name-input-box::placeholder {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: rgba(255, 255, 255, 0.69); /* */
+}
+
+
+
+/* Styles for the "Email" label/text*/
+.email-label-container {
+    position: absolute;
+    top: 321px; /* */
+    left: 138px; /* */
+    width: 41px; /* */
+    height: 19px; /* */
+}
+
+.email-label-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styles for the "Email" input box container */
+.email-input-container {
+    position: absolute;
+    top: 350px; /* */
+    left: 132px; /* */
+    width: 391px; /* */
+    height: 47px; /* */
+}
+
+/* Styles for the "Email" input box */
+.email-input-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: #D9D9D9; /* */
+    border: 1px solid; /* */
+    border-color: rgba(0, 0, 0, 0.17); /* */
+    border-radius: 10px; /* */
+
+    outline: none;
+    padding: 8px 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: normal;
+}
+
+/* Styles for "Enter your email" placeholder text */
+.email-input-box::placeholder {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: rgba(255, 255, 255, 0.60); /* */
+}
+
+
+
+/* Styles for the "Subject" label/text*/
+.subject-label-container {
+    position: absolute;
+    top: 414px; /* */
+    left: 135px; /* */
+    width: 59px; /* */
+    height: 19px; /* */
+}
+
+.subject-label-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styles for the "Subject" input box container */
+.subject-input-container {
+    position: absolute;
+    top: 447px; /* */
+    left: 132px; /* */
+    width: 391px; /* */
+    height: 47px; /* */
+}
+
+/* Styles for the "Subject" input box */
+.subject-input-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: #D9D9D9; /* */
+    border: 1px solid; /* */
+    border-color: rgba(0, 0, 0, 0.17); /* */
+    border-radius: 10px; /* */
+
+    outline: none;
+    padding: 8px 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: normal;
+}
+
+/* Styles for "Enter your subject" placeholder text */
+.subject-input-box::placeholder {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: rgba(255, 255, 255, 0.60); /* */
+}
+
+
+
+/* Styles for the "Message" label/text*/
+.message-label-container {
+    position: absolute;
+    top: 521px; /* */
+    left: 138px; /* */
+    width: 70px; /* */
+    height: 19px; /* */
+}
+
+.message-label-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Styles for the "Message" input box container */
+.message-input-container {
+    position: absolute;
+    top: 557px; /* */
+    left: 132px; /* */
+    width: 391px; /* */
+    height: 164px; /* */
+}
+
+/* Styles for the "Message" input box (textarea) */
+.message-input-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: #D9D9D9; /* */
+    border: 1px solid; /* */
+    border-color: rgba(0, 0, 0, 0.17); /* */
+    border-radius: 10px; /* */
+
+    outline: none;
+    padding: 8px 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: normal;
+    resize: none; /* - Prevents manual resizing of textarea */
+}
+
+/* Styles for "Enter your message" placeholder text */
+.message-input-box::placeholder {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: rgba(255, 255, 255, 0.60); /* */
+}
+
+
+
+/* Styles for the "Send Message" button container */
+.send-message-button-container {
+    position: absolute;
+    top: 757px; /* */
+    left: 132px; /* */
+    width: 153px; /* */
+    height: 36px; /* */
+}
+
+/* Styles for the "Send Message" button */
+.send-message-button {
+    position: relative; /* Needed for absolute positioning of child text */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px; /* */
+    background-color: rgba(0, 83, 200, 0.89); /* - #0053C8 at 89% */
+    cursor: pointer;
+    overflow: hidden; /* Ensure text doesn't overflow if positioning is off */
+}
+
+.send-message-button:hover {
+    opacity: 0.9; /* Subtle hover effect */
+}
+
+.send-message-button:active {
+    opacity: 0.8; /* Subtle active effect */
+}
+
+/* Styles for the "Send message" text inside the button */
+.send-message-text {
+    position: absolute; /* Position relative to the button */
+    top: 10px; /* - Calculated from button's top (767 - 757) */
+    left: 19px; /* - Calculated from button's left (151 - 132) */
+    width: 113px; /* */
+    height: 19px; /* */
+
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: Medium;
+    font-size: 16px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0%; /* */
+    color: #FFFFFF; /* */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.our-location-container {
+    position: absolute;
+    top: 822px; /* */
+    left: 132px; /* */
+    width: 150px; /* */
+    height: 29px; /* */
+}
+
+.our-location-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 600; /* */
+    font-style: normal; /* "Semi Bold" maps to normal style */
+    font-size: 24px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0px; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.map-image-container {
+    position: absolute;
+    top: 868px; /* */
+    left: 132px; /* */
+    width: 650px; /* */
+    height: 392px; /* */
+    border-radius: 15px; /* */
+    overflow: hidden; /* Ensures the image respects the border-radius */
+}
+
+/* Styles for the Map Image itself */
+.map-image {
+    width: 100%;
+    height: 100%;
+    display: block; /* Removes extra space below image */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    border-radius: 15px; /* Apply border-radius directly to the image as well for consistency */
+}
+
+.address-container {
+    position: absolute;
+    top: 1284px; /* */
+    left: 132px; /* */
+    width: 327px; /* */
+    height: 24px; /* */
+}
+
+.address-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: medium; /* "Medium" maps to normal style */
+    font-size: 20px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0px; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.phone-number-container {
+    position: absolute;
+    top: 1325px; /* */
+    left: 132px; /* */
+    width: 280px; /* */
+    height: 24px; /* */
+}
+
+.phone-number-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: normal; /* "Medium" maps to normal style */
+    font-size: 20px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0px; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.email-address-container {
+    position: absolute;
+    top: 1366px; /* */
+    left: 132px; /* */
+    width: 213px; /* */
+    height: 24px; /* */
+}
+
+.email-address-text {
+    font-family: 'Inter', sans-serif; /* */
+    font-weight: 500; /* */
+    font-style: normal; /* "Medium" maps to normal style */
+    font-size: 20px; /* */
+    line-height: 100%; /* */
+    letter-spacing: 0px; /* */
+    color: #000000; /* */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
