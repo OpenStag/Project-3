@@ -1,0 +1,89 @@
+.image{
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    border-radius: 10%;
+}
+
+img{
+    width: 820px;
+    height:406px;
+    border-radius: 10px;
+
+
+}
+.content{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+
+
+
+
+/* Basic styling for the main timeline container */
+.timeline {
+  position: relative;
+  max-width: 600px; /* Optional: increase width if needed */
+  margin-left:-2%; /* Align to the left */
+  padding-left: 25px; /* slight padding */
+  margin-top: 20Px;
+}
+
+/* Style for each individual timeline item */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+/* Vertical line */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 14px; /* aligns with center of icon */
+  top: 30px;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+/* No line after the last item */
+.timeline-item:last-child::after {
+  display: none;
+}
+
+/* Timeline icon style */
+.timeline-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+ 
+}
+
+/* Content area next to icon */
+.timeline-content {
+  flex: 1;
+  margin-top: 2px;
+}
+
+/* Heading */
+.timeline-content h5 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+/* Paragraph */
+.timeline-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
