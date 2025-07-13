@@ -1,9 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #f0f0f0;
-}
+
 
  * {
       margin: 0;
@@ -75,8 +70,13 @@ body {
     }
 
 /* Styles for the "Contact Us" heading*/
+.contact-us-section{
+    display: flex;
+    flex-direction: column;
+    color: #0043ED;
+    height: 1450px;
+}
 .contact-us-container {
-    position: absolute;
     top: 112px;
     left: 132px; 
     width: 175px; 
@@ -120,7 +120,6 @@ body {
 
 /* Styles for the "Your Name" label/text*/
 .your-name-label-container {
-    position: absolute;
     top: 228px; 
     left: 135px;
     width: 84px; 
@@ -528,9 +527,8 @@ body {
     overflow: hidden;
 }
 
-
+/*footer*/
    .footer {
-      width: 1450px;
       margin-left: 0;
       position:static;
       background-color: #f4efef;

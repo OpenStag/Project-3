@@ -67,32 +67,28 @@
       object-fit: cover;
     }
 
-
-
-
-.image{
-    margin-left: 15%;
-    margin-right: 15%;
-    align-items: center;
-    border-radius: 10%;
+.about-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.image-section{
+  display: flex;
+  justify-content: left;
+  width: 1040px;
 }
 
 img{
     width: 820px;
     height:406px;
     border-radius: 10px;
-
-
 }
-.content{
-    text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
-
-
+.content {
+  margin-top: 20px;
+  max-width: 1040px;
 }
-
-
 
 
 /* Basic styling for the main timeline container */

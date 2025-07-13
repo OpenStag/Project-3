@@ -93,24 +93,27 @@
       font-weight: bold;
     }
 
-    .filters select.tt{
-      position: absolute;
-      left: 80px;
-    }
+  
 
-     .filters select.du{
-      position: absolute;
-      left: 250px;
-    }
 
-      .cards{
-      position: absolute;
-      left: 63px;
+    .card-section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 63px;
+  /* Adjusted to account for fixed header */
     }
-
+    .cart-section-header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cards-description{
+      margin-top: 20px;
+    }
       .card {
       display: flex;
-      width: 1000px;
       height: 237px;
       background-color: #D9D9D9;
       border-radius: 10px;
@@ -154,7 +157,6 @@
     }
     
     .footer {
-      width: 1450px;
       margin-left: 0;
       position:static;
       background-color: #f4efef;
