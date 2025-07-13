@@ -1,0 +1,205 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      overflow-x:hidden;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #c0e4f0; 
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+    }
+    .logo {
+      font-family: merienda one;
+      font-size: 24px;
+      font-weight: bold;
+      color: #048279;
+      font-style: italic;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      font-size: 16px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    a:hover {
+      color: #0043ED;
+    }
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .search-icon {
+      width: 27px;
+      height: 27px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .profile-img {
+      width: 43px;
+      height: 39px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+.about-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.image-section{
+  display: flex;
+  justify-content: left;
+  width: 1040px;
+}
+
+img{
+    width: 820px;
+    height:406px;
+    border-radius: 10px;
+}
+.content {
+  margin-top: 20px;
+  max-width: 1040px;
+}
+
+
+/* Basic styling for the main timeline container */
+.timeline {
+  position: relative;
+  max-width: 600px; /* Optional: increase width if needed */
+  margin-left:-2%; /* Align to the left */
+  padding-left: 25px; /* slight padding */
+  margin-top: 20Px;
+}
+
+/* Style for each individual timeline item */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+/* Vertical line */
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 14px; /* aligns with center of icon */
+  top: 30px;
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+/* No line after the last item */
+.timeline-item:last-child::after {
+  display: none;
+}
+
+/* Timeline icon style */
+.timeline-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+ 
+}
+
+/* Content area next to icon */
+.timeline-content {
+  flex: 1;
+  margin-top: 2px;
+}
+
+/* Heading */
+.timeline-content h5 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+/* Paragraph */
+.timeline-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+    .footer {
+      margin-left: 0;
+      position:static;
+      background-color: #f4efef;
+      padding: 30px 0px;
+      text-align: center;
+      color: #666;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: center;
+      font-size: 12px;
+      gap: 40px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-top a {
+     text-decoration: none;
+     color: #555;
+    }
+
+    .footer-top a:hover {
+     text-decoration: underline;
+    }
+
+    .footer-icons {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-bottom: 15px;
+    }
+
+    .footer-icons img {
+     width: 20px;
+     height: 20px;
+     filter: invert(20%); 
+     transition: transform 0.2s ease;
+    }
+
+    .footer-icons img:hover {
+     transform: scale(1.2);
+    }
+
+    .footer-bottom {
+     color: #888;
+    }
+
